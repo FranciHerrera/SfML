@@ -5,7 +5,12 @@ using namespace std;
 using namespace sf;
 
 int main() {
-    Grafo grafo;
-    grafo.startHistory();
+    /*Music music;
+    music.openFromFile("TraversingGodmode.wav");
+    music.setVolume(60);
+    music.play();
+    music.setLoop(true);*/
+    game game;
+    game.Historia();
     return 0;
 }
